@@ -11,7 +11,7 @@ _JavaScript Object Notation_ (**JSON**) 是一种数据交换格式。尽管不�
 
 JSON 可以表示数字、布尔值、字符串、`null`、数组（有序序列），以及由这些值组成的对象（字符串与值的映射）。JSON 不支持复杂的数据类型（函数、正则表达式、日期等）。日期对象默认会转化为 ISO 格式的字符串，因此信息不会完全丢失。
 
-如果你需要使用 JSON 来表示复杂的数据类型，请在它们转化为字符串值。
+如果你需要使用 JSON 来表示复杂的数据类型，请将它们转化为字符串值。
 
 与 XML 非常相似，JSON 能存储 CSV 格式，同时保留它的分级信息。有许多工具能帮助你进行格式转换（例如 [JSON to CSV Converter](https://json-csv.com) 或[JSON to CSV Converter](https://jsontoexcel.com/)）。
 
